@@ -1,0 +1,566 @@
+/* line 14, ../scss/main.scss */
+html {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 18, ../scss/main.scss */
+body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+  overflow: hidden;
+}
+
+/* line 26, ../scss/main.scss */
+main {
+  min-width: 960px;
+}
+
+@media screen and (max-width: 1020px) {
+  /* line 30, ../scss/main.scss */
+  main {
+    min-width: 0;
+  }
+}
+/* line 34, ../scss/main.scss */
+a {
+  font-family: Josefin Sans, sans-serif;
+  font-weight: normal;
+  outline: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 41, ../scss/main.scss */
+.clickedMenu {
+  color: red;
+}
+
+/* line 44, ../scss/main.scss */
+.clickedMenuLi {
+  border-bottom: 2px solid white;
+  text-shadow: 0px 0px 15px #000000;
+}
+
+/* line 48, ../scss/main.scss */
+li {
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 51, ../scss/main.scss */
+header {
+  width: 100%;
+  height: 0%;
+  /* [disabled]background-color: red; */
+  position: fixed;
+  display: block;
+  min-width: 960px;
+  z-index: 90;
+  padding-top: 3%;
+}
+/* line 61, ../scss/main.scss */
+header nav {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  top: 0;
+}
+/* line 67, ../scss/main.scss */
+header nav ul {
+  margin-top: 0;
+  margin-right: 7%;
+  margin-left: 0;
+  margin-bottom: 0;
+  padding: 0;
+  text-align: right;
+}
+/* line 74, ../scss/main.scss */
+header nav ul li {
+  display: inline-block;
+  padding: 20px 3%;
+  position: relative;
+  border-bottom: 2px solid transparent;
+}
+/* line 79, ../scss/main.scss */
+header nav ul li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+/* line 88, ../scss/main.scss */
+header nav ul li:hover a {
+  color: red;
+}
+/* line 92, ../scss/main.scss */
+header nav ul li:hover {
+  border-bottom: 2px solid #ffffff;
+}
+@media screen and (max-width: 1020px) {
+  /* line 98, ../scss/main.scss */
+  header nav {
+    display: none;
+  }
+}
+
+/* line 105, ../scss/main.scss */
+main {
+  width: 100%;
+  position: relative;
+  height: 100%;
+  min-height: 600px;
+  /* [disabled]background-color: blue; */
+  z-index: 10;
+  left: 0;
+  top: 0;
+}
+
+/* line 115, ../scss/main.scss */
+footer {
+  display: block;
+  width: 100%;
+  height: 100px;
+  position: relative;
+  top: -100px;
+  background-color: black;
+  z-index: 100;
+}
+
+/* line 124, ../scss/main.scss */
+#logo {
+  display: block;
+  position: fixed;
+  float: left;
+  left: 5%;
+  top: 0px;
+  padding: 0px 2.5%;
+  height: 100%;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 99;
+}
+/* line 134, ../scss/main.scss */
+#logo img {
+  display: block;
+  position: relative;
+  left: 0;
+  top: 7%;
+  width: 9vw;
+  min-width: 120px;
+}
+
+/* line 143, ../scss/main.scss */
+.alternateBand1 {
+  	/*background-color: rgba(0,0,0,0.9);
+  }
+  .alternateBand2 {
+  	background-color: rgba(90,90,90,0.9);*/
+}
+
+@media screen and (max-width: 1020px) {
+  /* line 150, ../scss/main.scss */
+  #logo {
+    left: 10%;
+    top: 5%;
+    height: auto;
+    width: auto;
+    background-color: none;
+    z-index: 20;
+    position: absolute;
+  }
+  /* line 158, ../scss/main.scss */
+  #logo img {
+    width: 50%;
+    min-width: 120px;
+  }
+
+  /* line 163, ../scss/main.scss */
+  .alternateBand1 {
+    display: none;
+    background-color: transparent;
+  }
+
+  /* line 167, ../scss/main.scss */
+  .alternateBand2 {
+    display: none;
+    background-color: transparent;
+  }
+}
+/* line 173, ../scss/main.scss */
+.row {
+  display: block;
+  width: 100%;
+  position: relative;
+  z-index: 80;
+}
+/* line 178, ../scss/main.scss */
+.row .content {
+  display: block;
+  position: absolute;
+  left: calc(23% + 0vw);
+  bottom: calc(0% + 0px);
+  width: 72%;
+  height: calc(90% - 65px);
+  background-color: transparent;
+  text-align: left;
+  min-width: 700px;
+}
+@media screen and (max-width: 1020px) {
+  /* line 190, ../scss/main.scss */
+  .row .content {
+    width: 100%;
+    margin: 0;
+    height: 100%;
+    left: 0px;
+    top: 0;
+    min-width: 0;
+  }
+}
+/* line 200, ../scss/main.scss */
+.row #menuHolder .menuIMG {
+  width: 85%;
+}
+@media screen and (max-width: 1020px) {
+  /* line 204, ../scss/main.scss */
+  .row #menuHolder .menuIMG {
+    width: 100%;
+  }
+}
+/* line 209, ../scss/main.scss */
+.row .title {
+  width: 60%;
+  margin-bottom: 7%;
+}
+
+/* line 215, ../scss/main.scss */
+.row:nth-child(even) {
+  background-color: #962525;
+}
+
+/* line 218, ../scss/main.scss */
+#row1 {
+  height: 100%;
+  overflow: hidden;
+}
+
+/* line 223, ../scss/main.scss */
+#row2 {
+  height: 100%;
+  text-align: center;
+  overflow-y: scroll;
+  background-image: url(../image/bg-pattern2.png);
+}
+@media screen and (max-width: 1020px) {
+  /* line 229, ../scss/main.scss */
+  #row2 img {
+    width: calc(100% - 40px);
+    margin-left: 25px;
+    margin-top: 12%;
+  }
+}
+
+/* line 236, ../scss/main.scss */
+#row3 {
+  height: 100%;
+  text-align: center;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 1020px) {
+  /* line 241, ../scss/main.scss */
+  #row3 .title {
+    width: calc(100% - 40px);
+    margin-left: 25px;
+    margin-top: 12%;
+  }
+}
+
+/* line 248, ../scss/main.scss */
+#row4 {
+  height: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 1020px) {
+  /* line 252, ../scss/main.scss */
+  #row4 .title {
+    width: calc(100% - 40px);
+    margin-left: 25px;
+    margin-top: 12%;
+  }
+}
+/* line 258, ../scss/main.scss */
+#row4 iframe {
+  width: 40%;
+  height: 40vh;
+  display: inline-block;
+  position: relative;
+  left: 0;
+  top: 0;
+  vertical-align: top;
+}
+/* line 267, ../scss/main.scss */
+#row4 table {
+  display: inline-block;
+  position: relative;
+  width: 45vh;
+  left: 5%;
+  top: 5%;
+  vertical-align: middle;
+  color: white;
+}
+/* line 275, ../scss/main.scss */
+#row4 table td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+@media screen and (max-width: 1020px) {
+  /* line 281, ../scss/main.scss */
+  #row4 .title {
+    width: calc(100% - 40px);
+    margin-left: 25px;
+    margin-top: 12%;
+  }
+  /* line 286, ../scss/main.scss */
+  #row4 iframe {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+    margin-top: 0%;
+    height: 35vh;
+  }
+}
+
+@media screen and (max-width: 1020px) {
+  /* line 295, ../scss/main.scss */
+  #row4 {
+    overflow-y: scroll;
+  }
+}
+/* line 299, ../scss/main.scss */
+#mobileDevloping {
+  position: fixed;
+  top: -1000px;
+}
+
+@media screen and (max-width: 1020px) {
+  /* line 304, ../scss/main.scss */
+  #mobileDevloping {
+    display: block;
+    position: fixed;
+    padding: 10px 0px;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    color: #962525;
+    z-index: 99999;
+    text-align: center;
+  }
+}
+/* line 319, ../scss/main.scss */
+#scrollNavActivator {
+  display: none;
+  position: fixed;
+  top: 40px;
+  width: 60px;
+  background-color: transparent;
+  right: 5%;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 9999;
+}
+/* line 332, ../scss/main.scss */
+#scrollNavActivator img {
+  height: 60px;
+}
+
+/* line 336, ../scss/main.scss */
+#scrollNavDeactivator {
+  display: none;
+  position: fixed;
+  top: 40px;
+  width: 60px;
+  background-color: transparent;
+  padding: 0;
+  margin: 0;
+  height: 60px;
+  overflow: hidden;
+  cursor: pointer;
+  z-index: 9999;
+}
+/* line 348, ../scss/main.scss */
+#scrollNavDeactivator img {
+  height: 60px;
+}
+
+@media screen and (max-width: 1020px) {
+  /* line 353, ../scss/main.scss */
+  #scrollNavActivator {
+    display: block;
+  }
+
+  /* line 356, ../scss/main.scss */
+  #scrollNavDeactivator {
+    display: block;
+  }
+}
+/* line 360, ../scss/main.scss */
+.hamburgerActivated {
+  -webkit-transform: rotate(450deg);
+  -moz-transform: rotate(450deg);
+  -ms-transform: rotate(450deg);
+  -o-transform: rotate(450deg);
+  transform: rotate(450deg);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 368, ../scss/main.scss */
+.hamburgerDeactivated {
+  -webkit-transform: rotate(-360deg);
+  -moz-transform: rotate(-360deg);
+  -ms-transform: rotate(-360deg);
+  -o-transform: rotate(-360deg);
+  transform: rotate(-360deg);
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 376, ../scss/main.scss */
+.hamburgerHiddenActivated {
+  right: 5%;
+}
+
+/* line 379, ../scss/main.scss */
+.hamburgerHiddenDeactivated {
+  right: -102%;
+}
+
+/* line 382, ../scss/main.scss */
+.opacity0 {
+  opacity: 0.0;
+  filter: alpha(opacity=0);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 387, ../scss/main.scss */
+.opacity1 {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  -moz-transition: all 0.5s ease-in-out 0s;
+  -o-transition: all 0.5s ease-in-out 0s;
+  -ms-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+/* line 392, ../scss/main.scss */
+.z-index9998 {
+  z-index: 9998;
+}
+
+/* line 395, ../scss/main.scss */
+.z-index9999 {
+  z-index: 9999;
+}
+
+/* line 398, ../scss/main.scss */
+.displayBlock {
+  display: block;
+}
+
+/* line 401, ../scss/main.scss */
+.displayNone {
+  display: none;
+}
+
+/* line 404, ../scss/main.scss */
+.visibilityVisible {
+  visibility: visible;
+}
+
+/* line 407, ../scss/main.scss */
+#scrollNav {
+  display: block;
+  position: fixed;
+  top: 70px;
+  text-align: center;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.8);
+  right: calc(5% + 30px);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  z-index: 8999;
+}
+/* line 417, ../scss/main.scss */
+#scrollNav table {
+  position: relative;
+  float: left;
+  margin: auto;
+  height: 80%;
+  top: 10%;
+}
+/* line 423, ../scss/main.scss */
+#scrollNav table li {
+  list-style: none;
+  width: 100%;
+  height: auto;
+  padding: 2.5% 0;
+  overflow: hidden;
+}
+/* line 429, ../scss/main.scss */
+#scrollNav table li a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  padding: 20px;
+  font-size: 2em;
+}
+/* line 437, ../scss/main.scss */
+#scrollNav table li a:hover {
+  color: red;
+}
+
+/* line 447, ../scss/main.scss */
+.scrollNavActivated {
+  width: calc(90% - 60px);
+  height: calc(100% - 140px);
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+/* line 452, ../scss/main.scss */
+.scrollNavDeactivated {
+  width: 0;
+  height: 0;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}

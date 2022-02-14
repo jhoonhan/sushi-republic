@@ -1,0 +1,170 @@
+#wrapperMessageSent {
+	text-align: center;
+	background-image: url(../image/bg2.jpg);
+	background-size: cover;
+	background-position: center center;
+	font-family: Helvetica, sans-serif;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 100%;
+}
+#wrapperMessageSent h1 {
+	color: white;
+	padding: 0;
+	margin: 0;
+	font-size: 32px;
+	line-height: 32px;
+	font-weight: normal;
+}
+#wrapperMessageSent a {
+	font-family: Helvetica, sans-serif;
+	color: white;
+	text-decoration: none;
+	padding: 5px 20px;
+	border: 1px solid white;
+	position: relative;
+	top: 20px;
+	box-sizing: border-box;
+}
+#wrapperMessageSent a:hover {
+	color: red;
+	border: 1px solid red;
+}
+#wrapperMessageSent #message {
+	height: 94px;
+	display: block;
+	clear: both;
+	padding: 0px 0px;
+	position: relative;
+	top: calc(50% - 47px);
+	margin: 0 auto;
+}
+#reservation-area {
+	width: 100%;
+	margin-top: 40px;
+	max-width: 600px;
+}
+
+#reservation-area input, #reservation-area textarea {
+	padding: 3px 10px 3px 3px;
+	width: calc(100% - 122px);
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0px 0px 7px 0px;
+	background-color: black;
+	color: white;
+	border: 1px solid #666;
+}
+
+
+#reservation-area textarea {
+	height: 50px;
+	width: calc(100% - 122px);
+	background-color: black;
+	color: white;
+}
+
+#reservation-area textarea:focus, #reservation-area input:focus {
+	border: 1px solid #962525;
+}
+
+#reservation-area input.submit-button {
+	width: 100px;
+	float: right;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+#reservation-area input.submit-button:hover {
+	color: red;
+}
+
+
+
+
+
+
+
+
+#contact-area {
+	width: 40vw;
+	margin-top: 40px;
+	max-width: 600px;
+}
+
+@media screen and (max-width: 1080px) {
+	#contact-area {
+		width: calc(100vw - 35px);
+		margin-left: 20px;
+		margin-top: -20px;
+		padding-bottom: 40px;
+	}
+}
+
+
+#contact-area input, #contact-area textarea {
+	padding: 3px 10px 3px 3px;
+	width: calc(100% - 122px);
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0px 0px 7px 0px;
+	background-color: black;
+	color: white;
+	border: 1px solid #666;
+}
+
+
+#contact-area textarea {
+	height: 50px;
+	width: calc(100% - 122px);
+	background-color: black;
+	color: white;
+}
+
+#contact-area textarea:focus, #reservation-area input:focus {
+	border: 1px solid #962525;
+}
+
+#contact-area input.submit-button {
+	width: 100px;
+	float: right;
+	text-align: center;
+	padding: 5px 10px;
+}
+
+#contact-area input.submit-button:hover {
+	color: red;
+}
+
+label {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	width: calc(100px - 15px);
+	padding-top: 5px;
+	font-size: 1em;
+	color: white;
+}
+#labelSubscribe {
+	float: left;
+	text-align: left;
+	margin-right: 15px;
+	width: auto;
+	padding-top: 5px;
+	font-size: 1em;
+	color: white;
+	
+}
+
+#Subscribe {
+	padding: 3px 10px 3px 3px;
+	width: 50px !important;
+	font-family: Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 8px 0px 0px 0px !important;
+	background-color: black;
+	color: white;
+	border: 1px solid #666;
+	text-align: left;
+}

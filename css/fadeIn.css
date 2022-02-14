@@ -1,0 +1,83 @@
+#row1 #fadein {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	height: 100vh;
+	top: 0;
+}
+.slider-fade {
+	width:100%;
+	height: 100%;
+	top:0;
+	position:absolute;
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:center center;
+}
+#fade1 {
+	background-image: url(../image/mainSlider/1.jpg)
+}
+#fade2 {
+	background-image: url(../image/mainSlider/2.jpg)
+}
+#fade3 {
+	background-image: url(../image/mainSlider/3.jpg)
+}
+#fade4 {
+	background-image: url(../image/mainSlider/4.jpg)
+}
+#fade5 {
+	background-image: url(../image/mainSlider/5.jpg)
+}
+#fade6 {
+	background-image: url(../image/mainSlider/6.jpg)
+}
+#fade7 {
+	background-image: url(../image/mainSlider/7.jpg)
+}
+
+@media screen and (orientation:portrait) {
+	#fade1 {
+	background-image: url(../image/mainSlider/1m.jpg)
+	}
+	#fade2 {
+	background-image: url(../image/mainSlider/2m.jpg)
+	}
+	#fade3 {
+	background-image: url(../image/mainSlider/3m.jpg)
+	}
+	#fade4 {
+	background-image: url(../image/mainSlider/4m.jpg)
+	}
+	#fade5 {
+	background-image: url(../image/mainSlider/5m.jpg)
+	}
+	#fade6 {
+	background-image: url(../image/mainSlider/6m.jpg)
+	}
+	#fade7 {
+	background-image: url(../image/mainSlider/7m.jpg)
+	}
+}
+
+#fade2-1 {
+	background-image: url(../image/mainSlider/fadeIn2/1.jpg)
+}
+#fade2-2 {
+	background-image: url(../image/mainSlider/fadeIn2/2.jpg)
+}
+#fade2-3 {
+	background-image: url(../image/mainSlider/fadeIn2/3.jpg)
+}
+#fade2-4 {
+	background-image: url(../image/mainSlider/fadeIn2/4.jpg)
+}
+#fade2-5 {
+	background-image: url(../image/mainSlider/fadeIn2/5.jpg)
+}
+#fade2-6 {
+	background-image: url(../image/mainSlider/fadeIn2/6.jpg)
+}
+#fade2-7 {
+	background-image: url(../image/mainSlider/fadeIn2/7.jpg)
+}
