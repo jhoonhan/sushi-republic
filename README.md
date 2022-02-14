@@ -1,4 +1,4 @@
-# Sushi Republic Greensboro, NC
+# Sushi Republic - Greensboro, NC
 A Static Website for Local Korean Restaurant that was developed in 2015
 
 This is a static HTML/CSS website that I put together back in 2017.
